@@ -15,6 +15,9 @@ jobs:
       - setup_remote_docker:
           version: "20.10.11"
       - run:
+          name: "Env"
+          command: "env"
+      - run:
           name: "Build Docker Images"
           command: |
             ./build-images.sh
