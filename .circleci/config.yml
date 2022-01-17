@@ -29,13 +29,8 @@ jobs:
 
               echo $DOCKER_TOKEN | docker login -u swirrltravis --password-stdin
 
-              # an else block will be added in the future for a staging release
-              if git log -1 --pretty=%s | grep "\[release\]"; then
-                echo "Publishing cimg/clojure to Docker Hub production."
-                ./push-images.sh
-              else
-                echo "Skipping publishing."
-              fi
+              echo "Publishing cimg/clojure to Docker Hub production."
+              ./push-images.sh
 
               # Update the Docker Hub description
               STUBB_VER=0.2.0
