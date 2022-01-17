@@ -2,7 +2,7 @@
 
 FROM cimg/openjdk:8
 
-LABEL maintainer="Rick Moynihan <rick.m@swirrl.com>"
+LABEL maintainer="Rick Moynihan - Swirrl IT LTD"
 
 ENV CLOJURE_VERSION=1.10.3
 
