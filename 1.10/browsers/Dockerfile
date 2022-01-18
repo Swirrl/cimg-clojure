@@ -1,6 +1,6 @@
 # vim:set ft=dockerfile:
 
-FROM cimg/clojure:1.10.3-node
+FROM swirrl/cimg-clojure:1.10.3-node
 
 LABEL maintainer="CircleCI Community & Partner Engineering Team <community-partner@circleci.com>"
 

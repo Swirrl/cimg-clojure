@@ -1,6 +1,6 @@
 # vim:set ft=dockerfile:
 
-FROM cimg/openjdk:8
+FROM cimg/openjdk:8.0
 
 LABEL maintainer="Rick Moynihan - Swirrl IT LTD"
 

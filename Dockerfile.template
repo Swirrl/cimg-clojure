@@ -1,6 +1,6 @@
 # vim:set ft=dockerfile:
 
-FROM cimg/%%PARENT%%:8
+FROM swirrl/%%PARENT%%:8.0
 
 LABEL maintainer="Rick Moynihan - Swirrl IT LTD"
 

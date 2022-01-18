@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-namespace=cimg
-repository=clojure
+namespace=swirrl
+repository=cimg-clojure
 parent=openjdk
 variants=(node browsers)
